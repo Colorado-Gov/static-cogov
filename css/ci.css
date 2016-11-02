@@ -5,6 +5,7 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        font-family:"Trebuchet MS",Helvetica,sans-serif;
 }
 
 .brd {
@@ -46,7 +47,11 @@ body {
      -webkit-justify-content: center;
      justify-content: center;
 }
-
+.block a
+{
+  color:white;
+  text-decoration:none;
+}
 .sa
 {
   background-color:#0081cf;
@@ -119,4 +124,12 @@ a.contact
 .flex-item {
 
     margin: 5px;
+}
+
+#sa-content
+{
+  background-color:white;
+  padding:20px;
+  border-radius:5px;
+  min-height:300px;
 }
