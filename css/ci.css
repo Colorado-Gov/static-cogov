@@ -36,9 +36,15 @@ body {
   background-color:red;
   border-radius:5px;
   color:white;
-  display: flex;
-   align-items: center;
-   justify-content: center;
+   
+   display: -webkit-flex;
+     display: flex;
+     -webkit-flex-direction: column /* works with row or column */
+     flex-direction: column;
+     -webkit-align-items: center;
+     align-items: center;
+     -webkit-justify-content: center;
+     justify-content: center;
 }
 
 .sa
@@ -65,8 +71,52 @@ body {
 {
   margin-bottom:10px;
 }
+
+
 .co-header {
 background: rgba(237, 238, 238, 0.9) none repeat scroll 0 0;
   height: 80px;
   border-radius:0px;
+}
+
+.logo
+{
+
+	background: url(../img/logo.svg) 0px 0px no-repeat transparent;
+  display:block;
+  height:42px;	
+  width:240px; 
+  margin-top:20px;
+  text-indent:-99999px;
+}
+
+/* Extra Small */
+@media(max-width:767px){
+  a.contact {
+    display:block;
+    text-indent:-9999px;
+    background: rgba(0, 0, 0, 0) url("../img/contact_icon.svg") no-repeat scroll right center;
+  }
+}
+
+a.contact
+{
+    background: rgba(0, 0, 0, 0) url("../img/contact_icon.svg") no-repeat scroll left center;
+    content: "";
+    height: 100%;
+    padding: 10px 20px 0 40px;
+}
+.contact-block
+{
+  margin-top:20px;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column; // column
+    flex-direction: column; //column
+}
+.flex-item {
+
+    margin: 5px;
 }
