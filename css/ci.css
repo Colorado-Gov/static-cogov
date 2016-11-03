@@ -52,6 +52,10 @@ body {
   color:white;
   text-decoration:none;
 }
+.block a:hover
+{
+  text-decoration:underline;
+}
 .sa
 {
   background-color:#0081cf;
@@ -86,11 +90,9 @@ background: rgba(237, 238, 238, 0.9) none repeat scroll 0 0;
 
 .logo
 {
-
-	background: url(../img/logo.svg) 0px 0px no-repeat transparent;
   display:block;
-  height:42px;	
-  width:240px; 
+  height:44px;	
+  width:241px; 
   margin-top:20px;
   text-indent:-99999px;
 }
@@ -135,4 +137,12 @@ a.contact
   padding:20px;
   border-radius:5px;
   min-height:300px;
+}
+ul li
+{
+  margin:5px;
+}
+p.larger-text
+{
+  font-size:16px;
 }
