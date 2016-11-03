@@ -47,6 +47,16 @@ body {
      -webkit-justify-content: center;
      justify-content: center;
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+  
+  .flex-item
+  {
+    margin-top:50px !important;
+  }
+}
+
 .block a
 {
   color:white;
