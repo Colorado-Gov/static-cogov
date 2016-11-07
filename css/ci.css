@@ -1,6 +1,6 @@
 
-body { 
-        background: url('../img/autumn_ChimneyPeakSanJuan.jpg') no-repeat center center fixed; 
+body {
+        background: url('../img/autumn_ChimneyPeakSanJuan.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -37,7 +37,7 @@ body {
   background-color:red;
   border-radius:5px;
   color:white;
-   
+
    display: -webkit-flex;
      display: flex;
      -webkit-flex-direction: column /* works with row or column */
@@ -50,7 +50,7 @@ body {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 /* IE10+ CSS styles go here */
-  
+
   .flex-item
   {
     margin-top:50px !important;
@@ -101,8 +101,8 @@ background: rgba(237, 238, 238, 0.9) none repeat scroll 0 0;
 .logo
 {
   display:block;
-  height:44px;	
-  width:241px; 
+  height:44px;
+  width:241px;
   margin-top:20px;
   text-indent:-99999px;
 }
